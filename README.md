@@ -15,14 +15,14 @@ A naive Bayes classifier takes a lot of training before it has a strong understa
 With Coach, you can set explicit rules in YAML to make the classifier more acutely aware of this difference. If you only wanted to match the Lions team, you could use:
 
     lions:
-      negative:
-        - africa
-        - animal
-        - zoo
       positive:
         - detroit
         - draft
         - michigan
+      negative:
+        - africa
+        - animal
+        - zoo
 
 *(If you were also interested in the animals, you could also specify rules for `lions_animal`.)*
 

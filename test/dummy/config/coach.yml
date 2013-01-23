@@ -8,9 +8,9 @@ modules:
       - cfl
 lions:
   modules: nfl
-  negative:
-    - africa
-    - nittany
   positive:
     - detroit
     - michigan
+  negative:
+    - africa
+    - nittany
