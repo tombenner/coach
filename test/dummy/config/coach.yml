@@ -1,0 +1,16 @@
+modules:
+  nfl:
+    positive:
+      - draft
+      - nfl
+      - team
+    negative:
+      - cfl
+lions:
+  modules: nfl
+  negative:
+    - africa
+    - nittany
+  positive:
+    - detroit
+    - michigan
